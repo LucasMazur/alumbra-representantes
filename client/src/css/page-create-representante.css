@@ -1,0 +1,29 @@
+#page-create-representante {
+    display: flex;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+.map-container {
+    margin: 0 0 4rem;
+}
+
+.map-container .leaflet-container {
+    border-radius: 20px 20px 0 0;
+}
+
+.map-container footer {
+    background: #f5f8fa;
+    border-radius: 0 0 20px 20px;
+}
+
+.leaflet-container {
+    width: 100%;
+    
+
+    font: 600 2rem/1 "Nunito", sans-serif;
+    z-index: 5;
+  }
